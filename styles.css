@@ -1,0 +1,55 @@
+/* Style for the watermark logo */
+.watermark-logo {
+    position: absolute;
+    top: -20px; /* Adjust vertical position */
+    right: 585px; /* Adjust horizontal position */
+    opacity: 0.5; /* Adjust transparency */
+    pointer-events: none; /* Ensure the logo doesn't interfere with clicks */
+    width: 250px; /* Adjust width */
+    height: 100px; /* Maintain aspect ratio */
+    margin-right: 35px;
+}
+
+
+
+
+.back-button {
+    background-color: #4da6ff; /* Light blue background color */
+    color: #fff; /* White text color */
+    border: 1px solid #357ebd; /* Darker blue border */
+    padding: 10px 20px; /* Padding around text */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 5px 0 #357ebd; /* 3D effect shadow */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth animation */
+}
+
+.back-button:hover {
+    background-color: #3c8dbc; /* Darker blue on hover */
+    box-shadow: 0 3px 0 #357ebd; /* Adjusted shadow on hover */
+    transform: translateY(2px); /* Button lift on hover */
+}
+
+
+.back-button {
+    display: inline-block;
+    background-color: #4da6ff; /* Light blue background color */
+    color: #fff; /* White text color */
+    border: 1px solid #357ebd; /* Darker blue border */
+    padding: 10px 20px; /* Padding around text */
+    font-size: 16px; /* Font size */
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+    outline: none; /* Remove outline on focus (optional) */
+}
+
+.back-button:hover {
+    background-color: #3c8dbc; /* Darker blue on hover */
+}
+
+.back-button:focus {
+    outline: none; /* Remove outline on focus (optional) */
+}
